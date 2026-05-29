@@ -8,7 +8,7 @@ import { incomeStyles } from "../assets/dummyStyles";
 import { dummyTransactions } from "../assets/dummy";
 import { formatCurrency } from "../components/Helpers";
 
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = "https://finance-tracker-8ig9.onrender.com/api";
 
 const Income = () => {
   const [timeframe, setTimeframe] = useState("Monthly");

@@ -43,7 +43,7 @@ const Support = () => {
         <h2 className="font-semibold">Troubleshooting</h2>
         <ul className="list-disc list-inside text-sm text-gray-700">
           <li>If transactions disappear after reload, make sure you are logged in so data is persisted to the server.</li>
-          <li>If charts or gauges don't show, check that the backend server is running at <code>http://localhost:4000/api</code> and you have a valid token stored in localStorage.</li>
+          <li>If charts or gauges don't show, check that the backend server is running at <code>https://finance-tracker-8ig9.onrender.com/api</code> and you have a valid token stored in localStorage.</li>
           <li>For any errors, open the browser console to see details and contact support.</li>
         </ul>
       </section>
