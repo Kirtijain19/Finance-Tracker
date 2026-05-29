@@ -4,7 +4,7 @@ import axios from "axios";
 import { ArrowLeft, Eye, EyeOff, Mail, User } from "lucide-react";
 import { signupStyles } from "../assets/dummyStyles";
 
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = "https://finance-tracker-8ig9.onrender.com/api";
 
 const Signup = () => {
 	const navigate = useNavigate();

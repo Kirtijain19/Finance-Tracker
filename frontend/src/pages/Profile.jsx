@@ -4,7 +4,7 @@ import { Lock, Mail, User } from "lucide-react";
 import { profileStyles } from "../assets/dummyStyles";
 import { getInitials } from "../components/Helpers";
 
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = "https://finance-tracker-8ig9.onrender.com/api";
 
 const Profile = () => {
   const [user, setUser] = useState({ name: "User", email: "user@example.com" });
